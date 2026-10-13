@@ -49,7 +49,7 @@ header {
     url("../images/developer.png"), url("../images/header_bg.png"), #fff8f3;
   background-repeat: no-repeat;
   background-position:
-    top left,
+    23px 38px,
     bottom right;
   padding-top: 51px;
 }
@@ -283,7 +283,6 @@ nav .menu li a {
   margin-bottom: 28px;
   color: #181818;
 }
-
 
 .form input[type="text"],
 .form textarea,
