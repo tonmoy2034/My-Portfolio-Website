@@ -119,7 +119,7 @@ nav .menu li a {
 }
 
 #banner .banner-image img {
-  width: 650px;
+  max-width: 583px;
   vertical-align: middle;
 }
 
