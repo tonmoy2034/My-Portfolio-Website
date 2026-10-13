@@ -4,11 +4,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 /* for good practises */
 .open-sans-font {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
+
 .btn {
   padding: 18px 35px;
   background-color: #fd6e0a;
@@ -19,23 +21,27 @@
   border: none;
   cursor: pointer;
 }
+
 .section-heading {
   max-width: 827px;
   text-align: center;
   margin: 0 auto;
 }
-.section-heading h2{
-    font-size: 35px;
-    font-weight: bold;
-    color: #181818;
-    margin-bottom: 30px;
+
+.section-heading h2 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 30px;
 }
+
 .section-heading p {
-    font-size: 18px;
-    color: #757575;
-    line-height: 30px;
-    margin-bottom: 30px;
+  font-size: 18px;
+  color: #757575;
+  line-height: 30px;
+  margin-bottom: 30px;
 }
+
 /* main styles */
 header {
   background-color: #fff8f3;
@@ -47,6 +53,7 @@ header {
     bottom right;
   padding-top: 51px;
 }
+
 nav {
   width: 71%;
   max-width: 1140px;
@@ -55,114 +62,239 @@ nav {
   display: flex;
   justify-content: space-between;
 }
+
 .logo span {
   color: #fd6e0a;
 }
+
 .logo h2 {
   font-weight: 800;
   font-size: 45px;
 }
+
 nav .menu {
   display: flex;
   list-style: none;
   gap: 51px;
   align-items: center;
 }
+
 nav .menu li a {
   text-decoration: none;
   font-size: 20px;
   color: #474747;
 }
+
 #banner {
   margin: 47px 38px 0 230px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 #banner .banner-content {
   max-width: 585px;
 }
+
 #banner .banner-content h2 {
   font-size: 45px;
   font-weight: 600px;
   margin-bottom: 5px;
   color: #474747;
 }
+
 #banner .banner-content h1 {
   font-size: 85px;
   font-weight: bold;
   margin-bottom: 20px;
   color: #181818;
 }
+
 #banner .banner-content p {
   font-size: 18px;
   margin-bottom: 30px;
   color: #757575;
   line-height: 30px;
 }
+
 #banner .banner-image img {
   max-width: 584px;
   vertical-align: middle;
 }
-#about {
+
+#about,
+#my-experience,
+#resume {
   padding-top: 130px;
 }
+
 #about .about-container {
   width: 71%;
   max-width: 1140px;
   margin: 0 auto;
   text-align: center;
+  background-color: #fff8f3;
+  padding: 131px 156px;
+}
+
+#about .about-container .about-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+#about .about-container .about-info p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #757575;
+}
+
+#about .about-container .about-info h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #474747;
+}
+
+#my-experience .skills-container {
+  margin: 0 auto;
+  /* text-align: center; */
+  width: 71%;
+  max-width: 1140px;
+}
+
+#my-experience .skills-container .skills-card {
+  display: flex;
+  gap: 24px;
+  margin-top: 50px;
+}
+
+.card {
+  max-width: 267px;
+  padding: 30px;
+  box-shadow: 0 6px 50px 0 #00000036;
+}
+
+.card img {
+  max-width: 44px;
+  margin-bottom: 30px;
+}
+
+.card h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 20px;
+}
+
+.card p {
+  line-height: 28px;
+  font-size: 16px;
+  color: #757575;
+}
+
+#resume .resume-container {
+  display: flex;
+  gap: 24px;
+  width: 71%;
+  max-width: 1140px;
+  margin: 116px auto 0;
+}
+
+.resume-container .resume-title h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #474747;
+  margin-bottom: 29px;
+}
+
+.resume-container .resume-card {
+  max-width: 511px;
+  margin-right: 71px;
+}
+
+.resume-container .resume-card-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #474747;
+  margin-bottom: 10px;
+}
+
+.resume-container .resume-card-info {
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+  margin-bottom: 20px;
+}
+
+.resume-container .resume-card-text {
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+}
+
+.resume-container hr {
+  margin: 30px 0;
+}
+
+#resume .button {
+  margin: 50px 0 113px;
+  text-align: center;
+}
+
+#ending {
   background-color: #FFF8F3;
-  padding:131px 156px;
+  padding: 130px 0;
+  /* margin: 0 auto; */
 }
-#about .about-container .about-info{
-    display:flex;
-    justify-content: space-around;
-}
-#about .about-container .about-info p{
-    font-size: 20px;
-    line-height: 30px;
-    color:#757575;
-}
-#about .about-container .about-info h4{
-    font-size:20px;
-    font-weight: bold;
-    color:#474747;
-}
-#my-experience{
-   padding-top: 130px;
-}
-#my-experience .skills-container{
-    margin:0 auto;
-    /* text-align: center; */
-    width:71%;
-    max-width: 1140px;
-}
-#my-experience .skills-container .skills-card{
-    display: flex;
-    gap: 24px;
-    margin-top: 50px;
-}
-.card{
-    max-width: 267px;
-    padding:30px;
-    box-shadow: 0 6px 50px 0 #00000036;
-}
-.card img{
-    max-width: 44px;
-    margin-bottom:30px;
-   
-}
-.card h4{
-    font-size:20px ;
-    font-weight: bold;
-    color: #181818;
-    margin-bottom:20px;
-    
+
+.footer-container {
+  width: 71%;
+  max-width: 1140px;
+  display: flex;
+  margin: 0 auto;
+  gap: 117px;
 
 }
-.card p{
-    line-height: 28px;
-    font-size: 16px;
-    color: #757575;
+
+.footer-container .social {
+  max-width: 562px;
+}
+
+.footer-container .social h2 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #181818;
+}
+
+.footer-container .social p {
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 30px;
+  color: #474747;
+}
+
+.footer-container .social a {
+  margin-right: 24px;
+}
+
+.form h2 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 28px;
+  color: #181818;
+}
+
+
+.form input[type="text"],
+.form textarea,
+.form input[type="email"] {
+  width: 461px;
+  display: block;
+  padding: 18px 30px;
+  color: #757575;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 5px;
 }
