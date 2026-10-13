@@ -121,8 +121,7 @@ nav .menu li a {
 #banner .banner-image img {
   width: 650px;
   vertical-align: middle;
-  object-fit: contain;
-  background: transparent;
+  mix-blend-mode: multiply;
 }
 
 #about,
