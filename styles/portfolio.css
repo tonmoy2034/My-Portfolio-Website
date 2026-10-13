@@ -61,6 +61,7 @@ nav {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  gap: 629px;
 }
 
 .logo span {
@@ -68,7 +69,7 @@ nav {
 }
 
 .logo h2 {
-  font-weight: 800;
+  font-weight: bolder;
   font-size: 45px;
 }
 
