@@ -119,9 +119,8 @@ nav .menu li a {
 }
 
 #banner .banner-image img {
-  max-width: 583px;
+  width: 650px;
   vertical-align: middle;
-  mix-blend-mode: multiply;
 }
 
 #about,
