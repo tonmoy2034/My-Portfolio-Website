@@ -42,23 +42,23 @@
   margin-bottom: 30px;
 }
 
+.container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 /* main styles */
 header {
   background-color: #fff8f3;
   background:
     url("../images/developer.png"), url("../images/header_bg.png"), #fff8f3;
   background-repeat: no-repeat;
-  background-position:
-    23px 38px,
-    bottom right;
+  background-position: 23px 38px, bottom right;
   padding-top: 51px;
 }
 
 nav {
-  width: 71%;
-  max-width: 1140px;
-  /* border:1px solid black; */
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   gap: 629px;
@@ -119,7 +119,7 @@ nav .menu li a {
 }
 
 #banner .banner-image img {
-  max-width: 584px;
+  width: 650px;
   vertical-align: middle;
 }
 
@@ -130,9 +130,6 @@ nav .menu li a {
 }
 
 #about .about-container {
-  width: 71%;
-  max-width: 1140px;
-  margin: 0 auto;
   text-align: center;
   background-color: #fff8f3;
   padding: 131px 156px;
@@ -153,13 +150,6 @@ nav .menu li a {
   font-size: 20px;
   font-weight: bold;
   color: #474747;
-}
-
-#my-experience .skills-container {
-  margin: 0 auto;
-  /* text-align: center; */
-  width: 71%;
-  max-width: 1140px;
 }
 
 #my-experience .skills-container .skills-card {
@@ -195,9 +185,7 @@ nav .menu li a {
 #resume .resume-container {
   display: flex;
   gap: 24px;
-  width: 71%;
-  max-width: 1140px;
-  margin: 116px auto 0;
+  margin-top: 116px;
 }
 
 .resume-container .resume-title h3 {
@@ -248,10 +236,7 @@ nav .menu li a {
 }
 
 .footer-container {
-  width: 71%;
-  max-width: 1140px;
   display: flex;
-  margin: 0 auto;
   gap: 117px;
 
 }
