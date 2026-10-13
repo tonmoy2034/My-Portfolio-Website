@@ -119,8 +119,8 @@ nav .menu li a {
 }
 
 #banner .banner-image img {
-  width: 655px;
-  vertical-align: middle;
+  width: 650px;
+  /* vertical-align: middle; */
 }
 
 #about,
